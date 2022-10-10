@@ -1,0 +1,32 @@
+{
+  "label": "Generate random string",
+  "description": "With this you can generate a random string with letters and numbers",
+  "category": "Misc",
+  "icon": "CreateIcon",
+  "options": [
+    {
+      "meta": {
+        "type": "Number"
+      },
+      "name": "length",
+      "label": "Length",
+      "info": "The length of the string you want to generate",
+      "advanced": false,
+      "configuration": {
+        "placeholder": "10"
+      }
+    },
+    {
+      "meta": {
+        "type": "Output",
+        "output": {
+          "type": "Text"
+        }
+      },
+      "name": "result",
+      "label": "As",
+      "info": "The resulting string."
+    }
+  ],
+  "yields": "NONE"
+}

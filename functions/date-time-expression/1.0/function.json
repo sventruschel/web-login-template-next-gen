@@ -1,0 +1,41 @@
+{
+  "description": "Description",
+  "label": "Date Time Expression",
+  "category": "Misc",
+  "icon": "CreateIcon",
+  "options": [
+    {
+      "meta": {
+        "type": "Number"
+      },
+      "name": "add",
+      "label": "Amount to add",
+      "info": "Amount in hours you want to add to now",
+      "advanced": false,
+      "configuration": {
+        "placeholder": "1"
+      }
+    },
+    {
+      "name": "now",
+      "label": "Now",
+      "info": "Check this if you dont want to add any hours to the timestamp",
+      "meta": {
+        "type": "Boolean"
+      }
+    },
+    {
+      "meta": {
+        "type": "Output",
+        "output": {
+          "type": "Number"
+        }
+      },
+      "name": "result",
+      "label": "As",
+      "info": "The resulting timestamp."
+    }
+  ],
+  "yields": "NONE"
+}
+
