@@ -2,7 +2,10 @@
   "label": "Generate random string",
   "description": "With this you can generate a random string with letters and numbers",
   "category": "Misc",
-  "icon": "CreateIcon",
+  "icon": {
+    "color": "Green",
+    "name": "PlusIcon"
+  },
   "options": [
     {
       "meta": {

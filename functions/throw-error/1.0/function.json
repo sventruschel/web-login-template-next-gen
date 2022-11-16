@@ -1,0 +1,20 @@
+{
+  "description": "Description",
+  "label": "Throw Error",
+  "category": "Misc",
+  "icon": {
+    "color": "Green",
+    "name": "PlusIcon"
+  },
+  "options": [
+    {
+      "name": "message",
+      "label": "Message",
+      "info": "the error message you want to return",
+      "meta": {
+        "type": "Text"
+      }
+    }
+  ],
+  "yields": "NONE"
+}

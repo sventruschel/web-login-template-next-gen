@@ -2,7 +2,10 @@
   "description": "You can find documentation, intructions and examples for this NextGen Expression step here: https://github.com/Betty-Services/NextGen-expression",
   "label": "Expression",
   "category": "Misc",
-  "icon": "CreateIcon",
+  "icon": {
+    "color": "Green",
+    "name": "PlusIcon"
+  },
   "options": [
     {
       "meta": {
